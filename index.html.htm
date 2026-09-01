@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elektro Jaya - Toko Elektronik Online</title>
+<link rel="stylesheet" href="tugas1,%20dr.elektro_files/style_5L_K.css">
+</head>
+<body>
+
+    <!-- ===== HEADER (Gambar atau Tulisan) ===== -->
+    <header>
+        <h1>DR. ELEKTRO</h1>
+        <p>Toko Elektronik Terpercaya - Kualitas Terjamin, Harga Bersahabat</p>
+    </header>
+
+    <!-- ===== MAIN MENU (LINK) ===== -->
+    <nav>
+        <!-- checkbox tersembunyi untuk toggle menu mobile (tanpa JavaScript) -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#promo toko">Promo toko</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="layout">
+
+        <!-- ===== SIDEBAR ===== -->
+        <aside class="sidebar">
+            <h2>Kategori Produk</h2>
+            <ul>
+                <li><a href="#kategori-handphone">Handphone &amp; Tablet</a></li>
+                <li><a href="#kategori-laptop">Laptop &amp; Komputer</a></li>
+                <li><a href="#kategori-tv">Televisi</a></li>
+                <li><a href="#kategori-kulkas">Kulkas &amp; Pendingin</a></li>
+                <li><a href="#kategori-ac">AC</a></li>
+                <li><a href="#kategori-audio">Audio &amp; Speaker</a></li>
+            </ul>
+
+            <h2 style="margin-top:20px;">Ikuti Kami</h2>
+            <ul>
+               
+                <li><a href="https://www.instagram.com/f.izz_ahmd/" target="_blank">Instagram</a></li>
+                <li><a href="https://wa.me/6281436155100" target="_blank">WhatsApp</a></li>
+            </ul>
+        </aside>
+
+        <!-- ===== ISI KONTEN WEB ===== -->
+        <main class="content">
+
+            <!-- SECTION: BERANDA -->
+            <section id="beranda">
+                <h2>Selamat Datang di Elektro Jaya</h2>
+                <p>
+                    Elektro Jaya adalah toko elektronik online yang menyediakan berbagai kebutuhan
+                    perangkat elektronik mulai dari handphone, laptop, televisi, kulkas, hingga AC
+                    dengan harga terjangkau dan kualitas terjamin. Belanja mudah, aman, dan pengiriman
+                    cepat ke seluruh Indonesia.
+                </p>
+
+                <h3>Kenapa Belanja di Elektro Jaya?</h3>
+                <ul class="keunggulan">
+                    <li>Garansi resmi untuk setiap produk</li>
+                    <li>Gratis ongkir untuk pembelian tertentu</li>
+                    <li>Metode pembayaran lengkap dan aman</li>
+                    <li>Layanan purna jual dan customer service 24 jam</li>
+                </ul>
+            </section>
+
+            <!-- SECTION: PRODUK -->
+            <section id="produk">
+                <h2>Daftar Produk Terlaris</h2>
+                <table>
+                    <caption>Tabel Produk Elektronik</caption>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Produk</th>
+                            <th>Kategori</th>
+                            <th>Harga</th>
+                            <th>Stok</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="No">1</td>
+                            <td data-label="Nama Produk">Samsung Galaxy A07</td>
+                            <td data-label="Kategori">Handphone</td>
+                            <td data-label="Harga">Rp 3.500.000</td>
+                            <td data-label="Stok"><span class="stok-ready">Tersedia</span></td>
+                        </tr>
+                        <tr>
+                            <td data-label="No">2</td>
+                            <td data-label="Nama Produk">Laptop UltraBook Pro 14"</td>
+                            <td data-label="Kategori">Laptop</td>
+                            <td data-label="Harga">Rp 9.200.000</td>
+                            <td data-label="Stok"><span class="stok-ready">Tersedia</span></td>
+                        </tr>
+                        <tr>
+                            <td data-label="No">3</td>
+                            <td data-label="Nama Produk">Smart TV LED 43 Inch</td>
+                            <td data-label="Kategori">Televisi</td>
+                            <td data-label="Harga">Rp 4.100.000</td>
+                            <td data-label="Stok"><span class="stok-habis">Habis</span></td>
+                        </tr>
+                        <tr>
+                            <td data-label="No">4</td>
+                            <td data-label="Nama Produk">Kulkas 2 Pintu 300L</td>
+                            <td data-label="Kategori">Kulkas</td>
+                            <td data-label="Harga">Rp 5.750.000</td>
+                            <td data-label="Stok"><span class="stok-ready">Tersedia</span></td>
+                        </tr>
+                        <tr>
+                            <td data-label="No">5</td>
+                            <td data-label="Nama Produk">AC Split 1 PK Inverter</td>
+                            <td data-label="Kategori">AC</td>
+                            <td data-label="Harga">Rp 4.850.000</td>
+                            <td data-label="Stok"><span class="stok-ready">Tersedia</span></td>
+                        </tr>
+                        <tr>
+                            <td data-label="No">6</td>
+                            <td data-label="Nama Produk">Speaker Bluetooth Mini</td>
+                            <td data-label="Kategori">Audio</td>
+                            <td data-label="Harga">Rp 350.000</td>
+                            <td data-label="Stok"><span class="stok-ready">Tersedia</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- SECTION: PRODUK PER KATEGORI (TAMPILAN CARD) -->
+            <section id="produk-kartu">
+                <h2>Semua Produk per Kategori</h2>
+
+                <!-- KATEGORI: HANDPHONE & TABLET -->
+                <div class="kategori-produk" id="kategori-handphone">
+                    <h3>Handphone &amp; Tablet</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Samsung%20Galaxy%20A07_5L_K.jpg"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Samsung Galaxy A07</h4>
+                                <p class="card-desc">Layar AMOLED 6.5", RAM 8GB, kamera utama 108MP.</p>
+                                <p class="card-price">Rp 3.500.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/huawei%20Nova%20Lite%205G_5L_K.jpg" alt="Smartphone Nova Lite 5G"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Smartphone Nova Lite 5G</h4>
+                                <p class="card-desc">Baterai 5000mAh, jaringan 5G, desain ringan.</p>
+                                <p class="card-price">Rp 2.100.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AirPad%2010.4_5L_K.jpg" alt="Tablet AirPad 10.4 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Tablet AirPad 10.4"</h4>
+                                <p class="card-desc">Cocok untuk kerja &amp; belajar, layar tajam, ringan dibawa.</p>
+                                <p class="card-price">Rp 2.800.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Zenith%20Pro%20Max_5L_K.jpg" alt="Smartphone Zenith Pro Max"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Smartphone Zenith Pro Max</h4>
+                                <p class="card-desc">Flagship kamera 200MP, chipset kencang untuk gaming.</p>
+                                <p class="card-price">Rp 5.200.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Kids%20Edu%208_5L_K.jpg" alt="Tablet Kids Edu 8 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Tablet Kids Edu 8"</h4>
+                                <p class="card-desc">Tablet edukasi anak, sudah ada parental control.</p>
+                                <p class="card-price">Rp 1.450.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KATEGORI: LAPTOP & KOMPUTER -->
+                <div class="kategori-produk" id="kategori-laptop">
+                    <h3>Laptop &amp; Komputer</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/UltraBook%20Pro_5L_K.jpg" alt="Laptop UltraBook Pro 14 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Laptop UltraBook Pro 14"</h4>
+                                <p class="card-desc">Tipis &amp; ringan, cocok untuk kerja sehari-hari.</p>
+                                <p class="card-price">Rp 9.200.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Vortex%2015_5L_K.jpg" alt="Laptop Gaming Vortex 15 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Laptop Gaming Vortex 15"</h4>
+                                <p class="card-desc">VGA dedicated, layar refresh rate tinggi untuk gaming.</p>
+                                <p class="card-price">Rp 14.500.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/PC%20Office%20Mini_5L_K.jpg" alt="PC Desktop Office Mini"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">PC Desktop Office Mini</h4>
+                                <p class="card-desc">Paket lengkap CPU + monitor untuk kebutuhan kantor.</p>
+                                <p class="card-price">Rp 6.750.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Chromebook%20Slim_5L_K.jpg" alt="Laptop Chromebook Slim 11 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Laptop Chromebook Slim 11"</h4>
+                                <p class="card-desc">Ringan, baterai awet, pas untuk pelajar.</p>
+                                <p class="card-price">Rp 3.900.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/FlipBook%2013_5L_K.jpg" alt="Laptop 2 in 1 FlipBook 13 inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Laptop 2-in-1 FlipBook 13"</h4>
+                                <p class="card-desc">Layar bisa dilipat 360°, mendukung stylus.</p>
+                                <p class="card-price">Rp 8.300.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KATEGORI: TELEVISI -->
+                <div class="kategori-produk" id="kategori-tv">
+                    <h3>Televisi</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/TV%20LED%2043_5L_K.jpg" alt="Smart TV LED 43 Inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Smart TV LED 43 Inch</h4>
+                                <p class="card-desc">Sudah support aplikasi streaming favorit.</p>
+                                <p class="card-price">Rp 4.100.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/TV%20LED%2055%204k_5L_K.jpg" alt="Smart TV LED 55 Inch 4K"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Smart TV LED 55 Inch 4K</h4>
+                                <p class="card-desc">Resolusi 4K UHD, gambar tajam &amp; jernih.</p>
+                                <p class="card-price">Rp 6.900.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/TV%20LED%2032%20hd_5L_K.jpg" alt="TV LED 32 Inch HD"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">TV LED 32 Inch HD</h4>
+                                <p class="card-desc">Ukuran pas untuk kamar, hemat listrik.</p>
+                                <p class="card-price">Rp 2.300.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/OLED%2065_5L_K.jpg" alt="Smart TV OLED 65 Inch"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Smart TV OLED 65 Inch</h4>
+                                <p class="card-desc">Warna hitam pekat, kontras premium untuk home theater.</p>
+                                <p class="card-price">Rp 15.500.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Android%20tv%2050_5L_K.jpg" alt="TV Android 50 Inch UHD"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">TV Android 50 Inch UHD</h4>
+                                <p class="card-desc">Sistem Android TV, akses ribuan aplikasi.</p>
+                                <p class="card-price">Rp 5.750.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KATEGORI: KULKAS & PENDINGIN -->
+                <div class="kategori-produk" id="kategori-kulkas">
+                    <h3>Kulkas &amp; Pendingin</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Kulkas%202%20Pintu_5L_K.jpg" alt="Kulkas 2 Pintu 300L"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Kulkas 2 Pintu 300L</h4>
+                                <p class="card-desc">Freezer terpisah, hemat energi, muat banyak.</p>
+                                <p class="card-price">Rp 5.750.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Kulkas%201%20Pintu_5L_K.jpg" alt="Kulkas 1 Pintu 120L"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Kulkas 1 Pintu 120L</h4>
+                                <p class="card-desc">Ukuran compact, cocok untuk kos atau kantor kecil.</p>
+                                <p class="card-price">Rp 2.400.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Side%20by%20Side_5L_K.jpg" alt="Kulkas Side by Side 500L"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Kulkas Side by Side 500L</h4>
+                                <p class="card-desc">Kapasitas besar, dispenser air di pintu.</p>
+                                <p class="card-price">Rp 12.900.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Freezer%20Box_5L_K.jpg" alt="Freezer Box 200L"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Freezer Box 200L</h4>
+                                <p class="card-desc">Cocok untuk usaha frozen food &amp; stok besar.</p>
+                                <p class="card-price">Rp 3.600.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Kulkas%20mini_5L_K.jpg" alt="Kulkas Mini Portable 20L"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Kulkas Mini Portable 20L</h4>
+                                <p class="card-desc">Praktis dibawa, cocok untuk kamar atau mobil.</p>
+                                <p class="card-price">Rp 1.150.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KATEGORI: AC -->
+                <div class="kategori-produk" id="kategori-ac">
+                    <h3>AC</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AC%201%20PK%20Inverter_5L_K.jpg" alt="AC Split 1 PK Inverter"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">AC Split 1 PK Inverter</h4>
+                                <p class="card-desc">Hemat listrik, pendinginan cepat &amp; senyap.</p>
+                                <p class="card-price">Rp 4.850.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AC%202%20pk%20inverter_5L_K.jpg" alt="AC Split 1/2 PK Standard"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">AC Split 1/2 PK Standard</h4>
+                                <p class="card-desc">Cocok untuk ruangan kecil, harga terjangkau.</p>
+                                <p class="card-price">Rp 3.200.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AC%202%20PK%20Inverter_5L_K.jpg" alt="AC Split 2 PK Inverter"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">AC Split 2 PK Inverter</h4>
+                                <p class="card-desc">Untuk ruangan luas, teknologi inverter hemat daya.</p>
+                                <p class="card-price">Rp 6.700.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AC%20portabel_5L_K.jpg" alt="AC Portable 1 PK"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">AC Portable 1 PK</h4>
+                                <p class="card-desc">Bisa dipindah-pindah, tanpa instalasi permanen.</p>
+                                <p class="card-price">Rp 5.500.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/AC%20Cassette%203%20PK_5L_K.jpg" alt="AC Cassette 3 PK"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">AC Cassette 3 PK</h4>
+                                <p class="card-desc">Untuk ruangan komersial, pemasangan di plafon.</p>
+                                <p class="card-price">Rp 11.200.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KATEGORI: AUDIO & SPEAKER -->
+                <div class="kategori-produk" id="kategori-audio">
+                    <h3>Audio &amp; Speaker</h3>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Speaker%20Mini_5L_K.jpg" alt="Speaker Bluetooth Mini"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Speaker Bluetooth Mini</h4>
+                                <p class="card-desc">Ringkas, baterai tahan lama, suara jernih.</p>
+                                <p class="card-price">Rp 350.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Soundbar_5L_K.jpg" alt="Soundbar Home Theater"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Soundbar Home Theater</h4>
+                                <p class="card-desc">Suara surround untuk pengalaman nonton lebih nyata.</p>
+                                <p class="card-price">Rp 2.100.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Speaker%20Party_5L_K.jpg" alt="Speaker Portable Party 100W"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Speaker Portable Party 100W</h4>
+                                <p class="card-desc">Suara kencang, ada lampu LED, cocok untuk acara.</p>
+                                <p class="card-price">Rp 1.750.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Headphone%20ANC_5L_K.jpg" alt="Headphone Wireless Noise Cancelling"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Headphone Wireless Noise Cancelling</h4>
+                                <p class="card-desc">Peredam bising aktif, nyaman dipakai lama.</p>
+                                <p class="card-price">Rp 1.250.000</p>
+                                <span class="stok-habis">Habis</span>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="card-img"><img src="tugas1,%20dr.elektro_files/Speaker%20Meeting_5L_K.jpg" alt="Speaker Aktif Meeting Room"></div>
+                            <div class="card-body">
+                                <h4 class="card-title">Speaker Aktif Meeting Room</h4>
+                                <p class="card-desc">Mic bawaan, cocok untuk ruang rapat &amp; presentasi.</p>
+                                <p class="card-price">Rp 3.400.000</p>
+                                <span class="stok-ready">Tersedia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- SECTION: PROMO -->
+            <section id="promo">
+                <h2>Promo toko</h2>
+                <p>
+                    Dapatkan diskon hingga 20% untuk kategori Laptop &amp; Komputer*, serta cashback
+                    khusus untuk pembelian AC dan Kulkas selama tanggal kembar berlangsung. Jangan
+                    sampai terlewat!
+                    </p><p>*s &amp; k berlaku
+                </p>
+            </section>
+
+            <!-- SECTION: TENTANG KAMI -->
+            <section id="tentang">
+                <h2>Tentang Kami</h2>
+                <p>
+                    Berdiri sejak 2020, DR. ELEKTRO berkomitmen menjadi mitra elektronik pilihan
+                    masyarakat dengan mengutamakan kepuasan pelanggan dan produk berkualitas
+                    tinggi dengan harga terjangkau dari berbagai merek ternama.
+                </p>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- ===== FOOTER / KONTAK ===== -->
+    <footer id="kontak">
+        <p>© 2026 DR. ELEKTRO. Seluruh Hak Cipta Dilindungi.</p>
+        <p>
+            Jl. Merdeka No. 123, Medan, Sumatera Utara |
+            Email: <a href="http://127.0.0.1:5500/fatizzah.74@gmail.com">fatizzah.74@gmail.com</a> |
+            Telepon: <a href="tel:+6281436155100">0814-3615-5100</a>
+        
+        </p>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
